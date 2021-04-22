@@ -1,15 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Register Student</title>
 </head>
+
 <body>
-    <h1>Register Student</h1>
-    <form method="GET">
-        <table bgcolor="lightgrey">
+    <form method="GET" action="studentrecord.html">
+        <table border="0" width="600" cellpadding="10" cellspacing="0">
+            <tr>
+                <td rowspan="2" align="center" bgcolor="lightgrey">
+                    <h2>Register Student</h2>
+                </td>
+            </tr>
+        </table>
+
+        <table bgcolor="lightgrey" width="600" height="120" border="0">
             <tr>
                 <td>
                     <label for="name">Nama Pelajar:</label>
@@ -19,7 +28,6 @@
                     <input type="text" name="name" required>
                 </td>
             </tr>
-
             <tr>
                 <td>
                     <label for="nopelajar">No.Pelajar:</label>
@@ -41,4 +49,5 @@
         </table>
     </form>
 </body>
+
 </html>

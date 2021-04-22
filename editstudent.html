@@ -1,22 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Edit Student</title>
 </head>
+
 <body>
-    <h1>Edit Student</h1>
-    <form method="GET">
-        <table bgcolor="lightgrey">
+    <form method="GET" action="studentrecord.html">
+        <table border="0" width="600" cellpadding="10" cellspacing="0">
+            <tr>
+                <td rowspan="2" align="center" bgcolor="lightgrey">
+                    <h2>Edit Student</h2>
+                </td>
+            </tr>
+        </table>
+
+        <table bgcolor="lightgrey" width="600" height="120" border="0">
             <tr>
                 <td>
                     <label for="name">Nama Pelajar:</label>
                 </td>
 
                 <td>
-                    <input type="text" name="name" required>
+                    <input type="text" name="name" value="CHAI WEI NING" required>
                 </td>
             </tr>
 
@@ -26,7 +35,7 @@
                 </td>
 
                 <td>
-                    <input type="text" name="nopelajar" minlength="12" maxlength="12" required>
+                    <input type="text" name="nopelajar" minlength="12" maxlength="12" value="18DDT19F1025" required>
                 </td>
             </tr>
 
@@ -37,8 +46,8 @@
                     <input type="submit" value="Submit"> <input type="reset" value="Reset">
                 </td>
             </tr>
-
         </table>
     </form>
 </body>
+
 </html>
